@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/me_zh"
+            android:icon="@drawable/zhanghaoguanli"
+            android:title="账号管理 " />
+        <item
+            android:id="@+id/me_jb"
+            android:icon="@drawable/jubaofankui"
+            android:title="举报反馈" />
+        <item
+            android:id="@+id/me_rj"
+            android:icon="@drawable/ruanjianbaimingdan"
+            android:title="软件白名单" />
+        <item
+            android:id="@+id/me_bb"
+            android:icon="@drawable/banbenxingxi"
+            android:title="版本信息" />
+        <item
+            android:id="@+id/me_yy"
+            android:icon="@drawable/yuyanshezhi"
+            android:title="语言设置" />
+    </group>
+</menu>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.chaxunzhanzuo">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="i自习"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".denglu"
+            android:label="i自习">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".UsersInfo_activity"/>
+        <activity android:name=".ForgotInfo_activity"/>
+        <activity android:name=".register_activity"/>
+
+        <activity android:name="com.example.chaxunzhanzuo.chaxunzhanzuo" > </activity>
+
+        <activity android:name="com.example.chaxunzhanzuo.zhujiemian" > </activity><!-- ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+
+    </application>
+
+</manifest>
